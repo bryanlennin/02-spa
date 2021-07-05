@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router'
-import { HeroesService } from '../../servicios/heroes.service';
-import { Heroe } from '../shared/interfaces/heroe.interface';
+import { PersonajesService } from '../../servicios/personajes.service';
+import { Personaje } from '../shared/interfaces/personaje.interface';
 
 @Component({
   selector: 'app-buscador',
@@ -10,19 +10,18 @@ import { Heroe } from '../shared/interfaces/heroe.interface';
 })
 export class BuscadorComponent implements OnInit {
 
-  heroes: Heroe[] = [];
+  personajes: Personaje[] = [];
   termino: string;
 
   constructor(
     private _activatedRoute: ActivatedRoute,
-    private _heroesService: HeroesService
+    private _personajesService: PersonajesService
   ) { }
 
   ngOnInit(): void {
     this._activatedRoute.params.subscribe(params => {
       this.termino = params['termino'];
-      this.heroes = this._heroesService.buscarHeroes(this.termino);
-      
+      this.personajes = this._personajesService.buscarPersonajes(this.termino);
     })
   }
 

@@ -5,17 +5,17 @@ import { NgModule } from '@angular/core';
 import { APP_ROUTING } from "./app.routes";
 
 // servicios
-import { HeroesService } from './servicios/heroes.service';
+import { PersonajesService } from './servicios/personajes.service';
 
 // COMPONENTES
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
-import { HeroesComponent } from './components/heroes/heroes.component';
-import { HeroeComponent } from './components/heroe/heroe.component';
-import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { PersonajesComponent } from './components/personajes/personajes.component';
+import { PersonajeComponent } from './components/personaje/personaje.component';
+import { PersonajeTarjetaComponent } from './components/personaje-tarjeta/personaje-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -23,17 +23,17 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
     NavbarComponent,
     HomeComponent,
     AboutComponent,
-    HeroesComponent,
-    HeroeComponent,
-    HeroeTarjetaComponent,
-    BuscadorComponent
+    BuscadorComponent,
+    PersonajesComponent,
+    PersonajeComponent,
+    PersonajeTarjetaComponent
   ],
   imports: [
     BrowserModule,
     APP_ROUTING
   ],
   providers: [
-    HeroesService
+    PersonajesService
   ],
   bootstrap: [AppComponent]
 })
