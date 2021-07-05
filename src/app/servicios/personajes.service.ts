@@ -7,19 +7,19 @@ export class PersonajesService{
   private personajes: Personaje[] = [
     {
       id: 1,
-      nombre: "x",
-      bio: "Thanos de titan es un megavillano ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por el escritor y artista Jim Starlin el personaje apareció por primera vez en The Invincible Iron Man # 55.",
-      img: "assets/img/thanos.jpg",
-      aparicion: "1973-02-01",
+      nombre: "Dormammu",
+      bio: "Es uno de los villanos más poderosos de Marvel Comics. No sólo es el gobernador de la Dimensión Oscura, sino que posee habilidades sobrenaturales asociadas a su naturaleza mística y cósmica. Controla la energía más allá del espacio-tiempo y se cree que tiene muy pocas debilidades.",
+      img: "assets/img/Dormammu.png",
+      aparicion: "1974-11-05",
       casa:"Marvel",
       tipo: "villano"
     },
     {
       id: 2,
-      nombre: "x",
-      bio: "Thanos de titan es un megavillano ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por el escritor y artista Jim Starlin el personaje apareció por primera vez en The Invincible Iron Man # 55.",
-      img: "assets/img/thanos.jpg",
-      aparicion: "1973-02-01",
+      nombre: "Galactus",
+      bio: "Temido en todo el Universo, Galactus es el único sobreviviente del universo que existió antes que este, él es la tercera fuerza del universo, su nombre es temido por incontables planetas por todo el universo, que viven temiendo la inevitable llegada del destructor de mundos!",
+      img: "assets/img/Galactus.png",
+      aparicion: "1966-03-01",
       casa:"Marvel",
       tipo: "villano"
     },
@@ -36,20 +36,20 @@ export class PersonajesService{
 
     {
       id: 4,
-      nombre: "Thanos",
-      bio: "Thanos de titan es un megavillano ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por el escritor y artista Jim Starlin el personaje apareció por primera vez en The Invincible Iron Man # 55.",
-      img: "assets/img/thanos.jpg",
-      aparicion: "1973-02-01",
-      casa:"Marvel",
+      nombre: "Bane",
+      bio: "Bane es un supervillano ficticio que aparece en los cómics estadounidenses publicados por DC Comics. Al poseer una mezcla de fuerza bruta e inteligencia excepcional, a Bane a menudo se le atribuye ser el único villano que ha 'roto al murciélago' tanto física como mentalmente.",
+      img: "assets/img/Bane.jpg",
+      aparicion: "1993-01-01",
+      casa:"DC",
       tipo: "villano"
     },
     
     {
       id: 5,
-      nombre: "Loki",
-      bio: "Loki es un supervillano ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por el escritor Stan Lee, el guionista Larry Lieber y el dibujante Jack Kirby, una versión del personaje apareció por primera vez en Venus #6.",
-      img: "assets/img/loki.jpg",
-      aparicion: "1962-10-01",
+      nombre: "Darkseid",
+      bio: "Darkseid es el gobernante tiránico del planeta Apokolips, cargo que obtuvo después de asesinar a su madre. Su obsesión es encontrar la Ecuación de la Anti-vida y usarla para gobernar el universo; esta meta también incluye conquistar su planeta rival, Nuevo Génesis, gobernado por el Alto Padre.",
+      img: "assets/img/Darkseid.jpg",
+      aparicion: "1970-12-01",
       casa:"Marvel",
       tipo: "villano"
     },
