@@ -13,7 +13,7 @@ export class PersonajesService{
       aparicion: "1974-11-05",
       casa:"Marvel",
       tipo: "villano",
-      ident: "Dormammu"
+      ident: "N/A"
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ export class PersonajesService{
       aparicion: "1966-03-01",
       casa:"Marvel",
       tipo: "villano",
-      ident: "Dormammu"
+      ident: "N/A"
     },
     
     {
@@ -34,7 +34,7 @@ export class PersonajesService{
       aparicion: "1973-02-01",
       casa:"Marvel",
       tipo: "villano",
-      ident: "Dormammu"
+      ident: "N/A"
     },
 
     {
@@ -45,7 +45,7 @@ export class PersonajesService{
       aparicion: "1993-01-01",
       casa:"DC",
       tipo: "villano",
-      ident: "Dormammu"
+      ident: "Dorrance"
     },
     
     {
@@ -56,7 +56,7 @@ export class PersonajesService{
       aparicion: "1970-12-01",
       casa:"Marvel",
       tipo: "villano",
-      ident: "Dormammu"
+      ident: "N/A"
     },
     {
       id: 6,
@@ -66,7 +66,7 @@ export class PersonajesService{
       aparicion: "1962-10-01",
       casa:"DC",
       tipo: "villano",
-      ident: "Dormammu"
+      ident: "Jack Napier"
     },
     {
       id: 7,
