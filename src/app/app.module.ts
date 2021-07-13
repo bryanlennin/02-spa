@@ -16,6 +16,7 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 import { PersonajesComponent } from './components/personajes/personajes.component';
 import { PersonajeComponent } from './components/personaje/personaje.component';
 import { PersonajeTarjetaComponent } from './components/personaje-tarjeta/personaje-tarjeta.component';
+import { EncriptarPipe } from './servicios/encriptar.pipe';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { PersonajeTarjetaComponent } from './components/personaje-tarjeta/person
     BuscadorComponent,
     PersonajesComponent,
     PersonajeComponent,
-    PersonajeTarjetaComponent
+    PersonajeTarjetaComponent,
+    EncriptarPipe
   ],
   imports: [
     BrowserModule,

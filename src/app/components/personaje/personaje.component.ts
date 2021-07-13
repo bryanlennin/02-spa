@@ -11,6 +11,10 @@ export class PersonajeComponent implements OnInit {
 
   personaje: any = {};
 
+  estado: boolean = false;
+  texto: string;
+
+
   constructor(
     private _personajesService: PersonajesService,
     private _activatedRoute: ActivatedRoute
@@ -18,10 +22,14 @@ export class PersonajeComponent implements OnInit {
     
     this._activatedRoute.params.subscribe(params => {
       this.personaje = this._personajesService.getPersonaje(params['id']);
+      this.texto = this.personaje.ident;
     } )
   }
 
   ngOnInit(): void {
   }
 
+  encriptar(){
+    this.estado = !this.estado;
+  }
 }

@@ -6,6 +6,7 @@ import { PersonajesService } from '../../servicios/personajes.service';
 
 import { Personaje } from '../shared/interfaces/personaje.interface';
 
+
 @Component({
   selector: 'app-personajes',
   templateUrl: './personajes.component.html',
@@ -14,7 +15,8 @@ import { Personaje } from '../shared/interfaces/personaje.interface';
 export class PersonajesComponent implements OnInit {
 
   personajes: Personaje[] = [];
-  constructor(
+
+    constructor(
     private _personajesService: PersonajesService,
     private _router:Router,
     private _activatedRoute: ActivatedRoute

@@ -12,7 +12,8 @@ export class PersonajesService{
       img: "assets/img/Dormammu.png",
       aparicion: "1974-11-05",
       casa:"Marvel",
-      tipo: "villano"
+      tipo: "villano",
+      ident: "Dormammu"
     },
     {
       id: 2,
@@ -21,7 +22,8 @@ export class PersonajesService{
       img: "assets/img/Galactus.png",
       aparicion: "1966-03-01",
       casa:"Marvel",
-      tipo: "villano"
+      tipo: "villano",
+      ident: "Dormammu"
     },
     
     {
@@ -31,7 +33,8 @@ export class PersonajesService{
       img: "assets/img/thanos.jpg",
       aparicion: "1973-02-01",
       casa:"Marvel",
-      tipo: "villano"
+      tipo: "villano",
+      ident: "Dormammu"
     },
 
     {
@@ -41,7 +44,8 @@ export class PersonajesService{
       img: "assets/img/Bane.jpg",
       aparicion: "1993-01-01",
       casa:"DC",
-      tipo: "villano"
+      tipo: "villano",
+      ident: "Dormammu"
     },
     
     {
@@ -51,7 +55,8 @@ export class PersonajesService{
       img: "assets/img/Darkseid.jpg",
       aparicion: "1970-12-01",
       casa:"Marvel",
-      tipo: "villano"
+      tipo: "villano",
+      ident: "Dormammu"
     },
     {
       id: 6,
@@ -60,7 +65,8 @@ export class PersonajesService{
       img: "assets/img/joker.jpg",
       aparicion: "1962-10-01",
       casa:"DC",
-      tipo: "villano"
+      tipo: "villano",
+      ident: "Dormammu"
     },
     {
       id: 7,
@@ -69,7 +75,8 @@ export class PersonajesService{
       img: "assets/img/aquaman.png",
       aparicion: "1941-11-01",
       casa:"DC",
-      tipo: "heroe"
+      tipo: "heroe",
+      ident: "Arthur Curry"
     },
     {
       id: 8,
@@ -78,7 +85,8 @@ export class PersonajesService{
       img: "assets/img/batman.png",
       aparicion: "1939-05-01",
       casa:"DC",
-      tipo: "heroe"
+      tipo: "heroe",
+      ident: "Bruce Wayne"
     },
     {
       id: 9,
@@ -87,7 +95,8 @@ export class PersonajesService{
       img: "assets/img/daredevil.png",
       aparicion: "1964-01-01",
       casa: "Marvel",
-      tipo: "heroe"
+      tipo: "heroe",
+      ident: "Matt Murdoc"
     },
     {
       id: 10,
@@ -96,7 +105,8 @@ export class PersonajesService{
       img: "assets/img/hulk.png",
       aparicion: "1962-05-01",
       casa:"Marvel",
-      tipo: "heroe"
+      tipo: "heroe",
+      ident: "Bruce Banner"
     },
     {
       id: 11,
@@ -105,7 +115,8 @@ export class PersonajesService{
       img: "assets/img/linterna-verde.png",
       aparicion: "1940-06-01",
       casa: "DC",
-      tipo: "heroe"
+      tipo: "heroe",
+      ident: "Hal Jordan"
     },
     {
       id: 12,
@@ -114,7 +125,8 @@ export class PersonajesService{
       img: "assets/img/spiderman.png",
       aparicion: "1962-08-01",
       casa: "Marvel",
-      tipo: "heroe"
+      tipo: "heroe",
+      ident: "Peter Parker"
     },
     {
       id: 13,
@@ -123,7 +135,8 @@ export class PersonajesService{
       img: "assets/img/wolverine.png",
       aparicion: "1974-11-01",
       casa: "Marvel",
-      tipo: "heroe"
+      tipo: "heroe",
+      ident: "Logan"
     }
   ];
 
